@@ -6,6 +6,6 @@ public class Moto extends Veiculo {
     }
 
     public float calcularCustoAbastecimento() {
-        return this.capacidadeTanque * this.combustivel.precoPorLitro();
+        return this.capacidadeTanque * this.combustivel.precoPorUnidadeCombustivel();
     }
 }

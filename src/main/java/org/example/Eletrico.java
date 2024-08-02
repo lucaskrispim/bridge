@@ -1,7 +1,7 @@
 package org.example;
 
 public class Eletrico implements Combustivel {
-    public float precoPorLitro() {
+    public float precoPorUnidadeCombustivel() {
         return 1.59f;
     }
 }
